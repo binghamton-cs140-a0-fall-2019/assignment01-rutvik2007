@@ -59,9 +59,14 @@ public class Person {
 //		String str = String.format("%09d", ssn);
 //		return str.substring(0,3) + "-" + str.substring(3,5) + "-" + str.substring(5); 
 // or
-		return String.format("%03d-%02d-%04d", ssn/1000000,ssn%1000000/10000, ssn%10000); 
+		return String.format("%03d-%02d-%04d", ssn/1000000,ssn%1000000/10000, ssn%10000);
 
 	}
+	
+	public String  getPlaceDOB(){
+		
+	}
+	
 // TODO provide the getter methods for placeDob and address 
 // TODO Override the public String toString() method that is similar to the 
 // toString of the StreetUSAddress class and will print a person as:
