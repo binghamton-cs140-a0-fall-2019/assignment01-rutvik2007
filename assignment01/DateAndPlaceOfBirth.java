@@ -106,7 +106,12 @@ public class DateAndPlaceOfBirth {
 	 * the same day and month as the date of birth of other and false otherwise
 	 */
 	public boolean hasSameBirthDayAs(DateAndPlaceOfBirth other) {
-  //TODO complete this method
+  		if ((other.getDateOfBirth().getMonth().getValue()==dateOfBirth.getMonth().getValue()) && (other.getDateOfBirth().getDayOfMonth()==dateOfBirth.getDayOfMonth())){
+  			return true;
+  		}
+  		else{
+  			return false;
+  		}
   }
 	@Override
 	public String toString() {

@@ -23,7 +23,7 @@ public class Person {
 			StreetUSAddress addr) {
 		firstNames = fstNames;
 		lastNames = lstNames;
-		var str = ssnString.trim().replace("-","");
+		String str = ssnString.trim().replace("-","");
 		while(str.charAt(0) == '0') {
 			str = str.substring(1);
 		}
@@ -36,17 +36,11 @@ public class Person {
 		placeDob = pdob;
 		address = addr;
 	}
-	/**
-	 * 
-	 * @return
-	 */
+	
 	public String getFirstNames() {
 		return firstNames;
 	}
-	/**
-	 * 
-	 * @return
-	 */
+	
 	public String getLastNames() {
 		return lastNames;
 	}
@@ -63,8 +57,16 @@ public class Person {
 
 	}
 	
-	public String  getPlaceDOB(){
-		
+	public DateAndPlaceOfBirth getPlaceDob(){
+		return placeDob;
+	}
+	
+	public StreetUSAddress getAddress(){
+		return address;
+	}
+	@Override
+	public String toString(){
+		return getFirstNames()+" "+getLastNames()+" ("+getSSN()+"\nDate and place of birth: "+getPlaceDob().getDateOfBirth().toString()+", "+getPlaceDob().getPlaceOfBirth()+"\n"+getAddress().toString();
 	}
 	
 // TODO provide the getter methods for placeDob and address 
