@@ -16,3 +16,13 @@ Are the birthdays of Object 1 and Object 3 the same? - true
 Are the birthdates of Object 1 and Object 3 the same? - false
 Are the birthdays of Object 3 and Object 4 the same? - true
 Are the birthdates of Object 3 and Object 4 the same? - true
+
+TESTS FOR StreetUSAddress.java
+Address 1:
+Apt 104B
+Hillside Residence
+Vestal, NY 13902
+
+Address 2:
+Broadway
+New York City, NY 27505
