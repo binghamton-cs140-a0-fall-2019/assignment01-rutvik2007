@@ -4,3 +4,15 @@ Dell, i7, 8GB Memory, 512GB Solid State Drive, Price: $950.00
 Lenovo, i7, 16GB Memory, 3.1TB Hard Drive, Price: $1500.00 
 Acer, i5, 12GB Memory, 2.0TB Solid State Drive, Price: $1100.00 
 HP, i3, 8GB Memory, 512GB Hard Drive, Price: $400.00 
+
+TESTS FOR DateAndPlaceOfBirth.java:
+Object1 - Date and place of birth: 1999-02-04, New York City, NY, USA
+Object2 - Date and place of birth: 1999-12-09, Pune, MH, India
+Object3 - Date and place of birth: 2002-02-04, San Jose, CA, USA
+Object4 - Date and place of birth: 2002-02-04, Visby, Sweden
+Object5 - Date and place of birth: 1989-08-28, Bilbao, Spain
+Are the birthdays of Object 1 and Object 2 the same? - false
+Are the birthdays of Object 1 and Object 3 the same? - true
+Are the birthdates of Object 1 and Object 3 the same? - false
+Are the birthdays of Object 3 and Object 4 the same? - true
+Are the birthdates of Object 3 and Object 4 the same? - true
