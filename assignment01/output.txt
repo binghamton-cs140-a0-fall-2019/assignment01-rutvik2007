@@ -1,0 +1,6 @@
+
+TESTS FOR Computer.java:
+Dell, i7, 8GB Memory, 512GB Solid State Drive, Price: $950.00 
+Lenovo, i7, 16GB Memory, 3.1TB Hard Drive, Price: $1500.00 
+Acer, i5, 12GB Memory, 2.0TB Solid State Drive, Price: $1100.00 
+HP, i3, 8GB Memory, 512GB Hard Drive, Price: $400.00 
