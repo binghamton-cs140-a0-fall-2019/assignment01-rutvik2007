@@ -50,3 +50,11 @@ Date and place of birth: 1995-03-06, Seattle, WA, USA
 Dixon Landing Rd
 Milpitas, CA 95035
 Computers: [Dell, i7, 8GB Memory, 512GB Solid State Drive, Price: $950.00 , Acer, i5, 12GB Memory, 2.0TB Solid State Drive, Price: $1100.00 ]
+
+TESTS FOR SimpleDateTester.java:
+First date: 12/9/1999
+Second date: 12/10/1999
+Third date: 10/2/1999
+Is the first date before the second date? - true
+Is the first date before the third date? - false
+Is the third date before the second date? - true
