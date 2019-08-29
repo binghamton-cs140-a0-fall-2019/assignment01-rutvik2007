@@ -26,3 +26,27 @@ Vestal, NY 13902
 Address 2:
 Broadway
 New York City, NY 27505
+
+TESTS FOR Person.java
+Rutvik Saptarshi (103-98-0126)
+Date and place of birth: 1999-02-04, New York City, NY, USA
+Apt 104B
+Hillside Residence
+Vestal, NY 13902
+
+TESTS FOR ComputerOwnerTester.java:
+Added 4 computers:
+Computer List, Owner: Dani Camaranesi (546-98-6400)
+Date and place of birth: 1995-03-06, Seattle, WA, USA
+1020 Mill Creek Apts
+Dixon Landing Rd
+Milpitas, CA 95035
+Computers: [Dell, i7, 8GB Memory, 512GB Solid State Drive, Price: $950.00 , Lenovo, i7, 16GB Memory, 3.1TB Hard Drive, Price: $1500.00 , Acer, i5, 12GB Memory, 2.0TB Solid State Drive, Price: $1100.00 , HP, i3, 8GB Memory, 512GB Hard Drive, Price: $400.00 ]
+
+Removed 2 computers:
+Computer List, Owner: Dani Camaranesi (546-98-6400)
+Date and place of birth: 1995-03-06, Seattle, WA, USA
+1020 Mill Creek Apts
+Dixon Landing Rd
+Milpitas, CA 95035
+Computers: [Dell, i7, 8GB Memory, 512GB Solid State Drive, Price: $950.00 , Acer, i5, 12GB Memory, 2.0TB Solid State Drive, Price: $1100.00 ]

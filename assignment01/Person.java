@@ -66,7 +66,7 @@ public class Person {
 	}
 	@Override
 	public String toString(){
-		return getFirstNames()+" "+getLastNames()+" ("+getSSN()+"\nDate and place of birth: "+getPlaceDob().getDateOfBirth().toString()+", "+getPlaceDob().getPlaceOfBirth()+"\n"+getAddress().toString();
+		return getFirstNames()+" "+getLastNames()+" ("+getSSN()+")\nDate and place of birth: "+getPlaceDob().getDateOfBirth().toString()+", "+getPlaceDob().getPlaceOfBirth()+"\n"+getAddress().toString();
 	}
 	
 // TODO provide the getter methods for placeDob and address 
